@@ -9,7 +9,7 @@
     "main": "./src/SpiraReporter.js",
     "license": "MIT",
     "scripts": {
-        "test": "karma"
+        "test": "karma start karma.conf.js"
     },
     "repository": {
         "type": "git",
@@ -24,5 +24,9 @@
     "devDependencies": {
         "karma": "^4.0.0",
         "karma-jasmine": "^2.0.1"
+    },
+    "dependencies": {
+        "karma-chrome-launcher": "^2.2.0",
+        "karma-cli": "^2.0.0"
     }
 }
