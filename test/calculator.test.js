@@ -1,6 +1,8 @@
 
 describe("Test Calculator", () => {
-    it("Should work?");
+    it("Should work?", () => {
+        expect(2).toEqual(2);
+    });
 
 
     /* beforeEach(() => {
