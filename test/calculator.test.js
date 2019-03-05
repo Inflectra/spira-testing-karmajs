@@ -8,11 +8,8 @@ describe("Test Calculator", () => {
         document.body.insertAdjacentHTML(
             'afterbegin',
             fixture);
-    })
-
-    beforeEach(function () {
         window.calculator.init();
-    });
+    })
 
     afterEach(function () {
         document.body.removeChild(document.getElementById("fixture"));
@@ -22,14 +19,14 @@ describe("Test Calculator", () => {
         document.getElementById("a").value = 2;
         document.getElementById("b").value = 4;
         document.getElementById("add").click();
-        expect(document.getElementById("result")).toBe(6);
+        expect(document.getElementById("result").innerHTML).toBe('6');
     });
 
     it("Should multiply numbers", () => {
         document.getElementById("a").value = 2;
         document.getElementById("b").value = 4;
         document.getElementById("multiply").click();
-        expect(document.getElementById("result")).toBe(8);
+        expect(document.getElementById("result").innerHTML).toBe('8');
     });
 
 })
