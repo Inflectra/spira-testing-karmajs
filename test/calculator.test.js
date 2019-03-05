@@ -1,11 +1,6 @@
 
 describe("Test Calculator", () => {
-    it("Should work?", () => {
-        expect(2).toEqual(2);
-    });
-
-
-    /* beforeEach(() => {
+    beforeEach(() => {
         var fixture = '<div id="fixture"><input id="a" type="text"/><input id="b" type="text"/>' +
             '<input id="add" type="button" value="Add"/><input id="multiply" type="button" value="Multiply"/>' +
             'Result: <span id="result"/></div>';
@@ -36,5 +31,5 @@ describe("Test Calculator", () => {
         document.getElementById("multiply").click();
         expect(document.getElementById("result")).toBe(8);
     });
- */
+
 })
