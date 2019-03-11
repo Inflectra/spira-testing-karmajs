@@ -6,10 +6,10 @@
         "url": "http://www.inflectra.com"
     },
     "version": "1.0.0",
-    "main": "./src/SpiraReporter.js",
+    "main": "SpiraReporter.js",
     "license": "MIT",
     "scripts": {
-        "test": "karma start karma.conf.js"
+        "test": "echo \"Nah\""
     },
     "repository": {
         "type": "git",
@@ -17,16 +17,8 @@
     },
     "keywords": [
         "karma",
-        "test",
+        "karma-plugin",
         "tdd",
         "spira"
-    ],
-    "devDependencies": {
-        "karma": "^4.0.0",
-        "karma-jasmine": "^2.0.1"
-    },
-    "dependencies": {
-        "karma-chrome-launcher": "^2.2.0",
-        "karma-cli": "^2.0.0"
-    }
+    ]
 }

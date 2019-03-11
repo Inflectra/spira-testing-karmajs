@@ -34,7 +34,7 @@ module.exports = function (config) {
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress', "karma-spiratest-reporter"],
+    reporters: ['progress'],
 
     spiratestReporter: {
       "url": "https://demo.spiraservice.net/peter-inflectra",
@@ -48,7 +48,7 @@ module.exports = function (config) {
       }
     },
 
-    plugins: ["karma-spiratest-reporter"],
+    plugins: ["karma-jasmine", "karma-chrome-launcher", "karma-spiratest-reporter"],
 
 
     // web server port
