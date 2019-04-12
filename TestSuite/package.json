@@ -1,0 +1,24 @@
+{
+  "name": "spira-test-suite",
+  "version": "1.0.0",
+  "description": "Testing for Spira Karma integration",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm link karma-spiratest-reporter && karma start karma.conf.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "karma": "^4.0.1"
+  },
+  "devDependencies": {
+    "jasmine": "^3.3.1",
+    "karma": "^4.0.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^2.0.0",
+    "karma-jasmine": "^2.0.1"
+  }
+}

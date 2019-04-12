@@ -1,0 +1,24 @@
+{
+    "name": "karma-spiratest-reporter",
+    "author": {
+        "name": "Inflectra Corporation",
+        "email": "support@inflectra.com",
+        "url": "http://www.inflectra.com"
+    },
+    "version": "1.0.0",
+    "main": "SpiraReporter.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "echo \"Nah\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Inflectra/karma-spiratest.git"
+    },
+    "keywords": [
+        "karma",
+        "karma-plugin",
+        "tdd",
+        "spira"
+    ]
+}
